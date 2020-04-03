@@ -31,6 +31,90 @@
   </header>
   <main class="page-main">
     <img src="https://via.placeholder.com/150x150" alt="Sedona">
+    <h1 class="page-main__title">Оставьте свой отзыв</h1>
+    <p class="page-main__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них,
+      а также о посещенных вами достопримечательностях
+    </p>
+    <div class="user-data user">
+      <h2 class="user-data__title">Представьтесь:</h2>
+      <form class="user-form" action="https://echo.htmlacademy.ru" method ="get">
+        <ul class="user__list">
+          <li class="user__item">
+            <label class="user-form__label">Имя:<sup>*</sup>
+              <input class="user-form__input" type="text" name="user-form__name" placeholder="Петр">
+            </label>
+          </li>
+          <li class="user__item">
+            <label class="user-form__label">Фамилия:<sup>*</sup>
+              <input class="user-form__input" type="text" name="user-form__surname" placeholder="Иванов">
+            </label>
+          </li>
+          <li class="user__item">
+            <label class="user-form__label">Отчество:<sup>*</sup>
+              <input class="user-form__input" type="text" name="user-form__secondname" placeholder="Александрович">
+            </label>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="user-contact user">
+      <h3 class="user-data__title">Контактная информация:</h2>
+      <form class="user-form" action="https://echo.htmlacademy.ru" method ="get">
+        <ul class="user__list">
+          <li class="user__item">
+            <label class="user-form__label">Контактная информация:<sup>*</sup>
+              <input class="user-form__input" type="tel" name="user-form__phone" placeholder="Введите телефон">
+            </label>
+          </li>
+          <li class="user__item">
+            <label class="user-form__label">Электронная почта:<sup>*</sup>
+              <input class="user-form__input" type="mail" name="user-form__mail" placeholder="Введите e-mail">
+            </label>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="user-impression user">
+      <h4 class="user-impression__title">Ваше общее впечатление:</h4>
+      <form class="user-form" action="https://echo.htmlacademy.ru" method ="get">
+        <ul class="user__list">
+          <li class="user__item">
+            <a href="#">Скорее положительное</a>
+          </li>
+          <li class="user__item">
+            <a href="#">Скорее отрицательное</a>
+          </li>
+          <li class="user__item">
+            <a href="#">Затрудняюсь ответить</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="user-places user">
+      <h5 class="user-places__title">Посещенные достопримечательности:</h4>
+      <form class="user-form" action="https://echo.htmlacademy.ru" method ="get">
+        <ul class="user__list">
+          <li class="user__item">
+            <a href="#">Мост Дьявола</a>
+          </li>
+          <li class="user__item">
+            <a href="#">Гора - Колокол</a>
+          </li>
+          <li class="user__item">
+            <a href="#">Слайд - парк</a>
+          </li>
+          <li class="user__item">
+            <a href="#">Красные скалы</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="user-emotion user">
+      <form class="user-form" action="https://echo.htmlacademy.ru" method ="get">
+        <textarea class="user__text">Опишите подробно все свои восторги</textarea>
+        <button class="user__btn">Отправить отзыв</button>
+      </form>
+    </div>
   </main>
   <footer class="page-footer">
     <div class="page-footer__hash">
